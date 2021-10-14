@@ -29,6 +29,13 @@ export default function NavBar() {
                     >
                         About Me!
                     </NavLink>
+                    <a 
+                        href="mailto:samygadi12@gmail.com"
+                        activeClassName="text-black-900 bg-gray-200"
+                        className="inline-flex items-center py-3 px-3 my-6 rounded text-gray-900 hover:text-gray-500"
+                    >
+                        Contract Me
+                    </a>
                 </nav>
                 <div className="inline-flex py-3 px-3 my-6">
                     <SocialIcon
